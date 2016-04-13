@@ -1,0 +1,15 @@
+.top-bar{
+    background-color: #222;
+}
+
+.footer{
+    background-color: #222;
+}
+
+.content-wrapper{
+    background-color: #1b815e !important;
+    border-color: #1b815e !important;
+}
+#content-row{
+    background-color: #2e2e2e;
+}

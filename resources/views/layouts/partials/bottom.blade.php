@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row">
+    <div class="row" id="content-row">
         @include('layouts.partials.left-sidebar')
         <!-- content-wrapper -->
         <div class="col-md-10 content-wrapper">

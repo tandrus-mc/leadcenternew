@@ -14,10 +14,13 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.styles(['bootstrap.css',
                 'font-awesome.css',
-                'main.css'], 'public/css/main.css')
+                'main.css',
+                'custom-style.css'], 'public/css/main.css')
        .scripts(['jquery/jquery-2.1.0.js',
                  'bootstrap/bootstrap.js',
                  'plugins/modernizr/modernizr.js',
-                 'king-common.js'], 'public/js/main.js')
-       .scripts('plugins/dropzone/dropzone.js', 'public/js/create-leadlist.js');
+                 'king-common.js',
+                 'plugins/parsley-validation/parsley.js'], 'public/js/main.js')
+       .scripts(['plugins/dropzone/dropzone.js',
+                 'plugins/wizard/wizard.min.js'], 'public/js/create-leadlist.js');
 });

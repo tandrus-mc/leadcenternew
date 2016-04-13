@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  */
 
-define(function (require) {
+(function (require) {
 
 	var $   = require('jquery');
 	var old = $.fn.wizard;

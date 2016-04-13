@@ -2,7 +2,7 @@
 <div class="logged-user">
     <div class="btn-group">
         <a href="#" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
-            <span class="name">userNameVariable</span> <span class="caret"></span>
+            <span class="name">{{ $user->name }}</span> <span class="caret"></span>
         </a>
         <ul class="dropdown-menu" role="menu">
             <li>
@@ -18,7 +18,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="{{ url('/logout') }}">
                     <i class="fa fa-power-off"></i>
                     <span class="text">Logout</span>
                 </a>
