@@ -10,6 +10,23 @@
     background-color: #1b815e !important;
     border-color: #1b815e !important;
 }
+
+ul.main-menu .sub-menu li a{
+    background-color: #708090;
+    border-color: #555;
+    color: white;
+}
+
+ul.main-menu > li:first-child > a{
+    background-color: #708090;
+    border-color: #555;
+    color: white;
+}
+
+.active{
+    background-color: #dfdfdf;
+}
+
 #content-row{
     background-color: #2e2e2e;
 }

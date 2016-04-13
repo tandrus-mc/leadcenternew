@@ -41,4 +41,15 @@ class LeadListController extends Controller
     public function destroy(){
 
     }
+
+    public function uploadLeadList(Request $request){
+        $DR               = DIRECTORY_SEPARATOR;
+        $pathPartial      = storage_path('app'.$DR.'uploads');
+        $uploadedLeadList = $request->file();
+        $listName         = time().$uploadedLeadList->getClientOriginalName();
+
+        $uploadedLeadList->move($pathPartial, $listName);
+
+        return 'Uploaded';
+    }
 }

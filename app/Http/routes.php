@@ -22,3 +22,5 @@ Route::get('/home', 'HomeController@index');
 Route::resource('/leadlist', 'LeadListController');
 
 Route::resource('/lead', 'LeadController');
+
+Route::post('leadlist/uploadleadlist', 'LeadListController@uploadLeadList');

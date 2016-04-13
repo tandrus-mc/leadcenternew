@@ -7,8 +7,5 @@
         </ul>
     </nav>
     <!-- /main-nav -->
-    <div class="sidebar-minified js-toggle-minified">
-        <i class="fa fa-angle-left"></i>
-    </div>
 </div>
 <!-- end left sidebar -->
