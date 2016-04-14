@@ -2,7 +2,7 @@
     <div class="row">
         <!-- logo -->
         <div class="col-md-2 logo" style="max-height: 175px; max-width: 175px">
-            <a href="index.html"><img id="logo" src="https://clickpromise.com/images/ClickPromise.svg" alt="logo: ClickPromise" class="img-responsive"></a>
+            <a href="/home"><img id="logo" src="https://clickpromise.com/images/ClickPromise.svg" alt="logo: ClickPromise" class="img-responsive"></a>
             <h1 class="sr-only">KingAdmin Admin Dashboard</h1>
         </div>
         <!-- end logo -->

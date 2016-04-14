@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                @include('leadlist.partials.create.wizard')
+                @include('leadlist.partials.create.lead-list')
             </div>
         </div>
     </div>

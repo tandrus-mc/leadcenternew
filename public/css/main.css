@@ -29994,6 +29994,10 @@ ul.main-menu > li:first-child > a{
     color: white;
 }
 
+.active{
+    background-color: #dfdfdf;
+}
+
 #content-row{
     background-color: #2e2e2e;
 }
