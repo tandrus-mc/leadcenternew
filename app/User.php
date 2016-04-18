@@ -24,7 +24,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function lead_lists(){
+    public function leadLists(){
         return $this->hasMany('App\LeadList');
     }
 }

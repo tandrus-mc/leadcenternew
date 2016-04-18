@@ -16,11 +16,13 @@ elixir(function(mix) {
                 'font-awesome.css',
                 'main.css',
                 'custom-style.css'], 'public/css/main.css')
+       .styles('sweetalert.css', 'public/css/sweetalert.css')
        .scripts(['jquery/jquery-2.1.0.js',
                  'bootstrap/bootstrap.js',
                  'plugins/modernizr/modernizr.js',
                  'king-common.js',
                  'plugins/parsley-validation/parsley.js'], 'public/js/main.js')
        .scripts(['plugins/dropzone/dropzone.js',
-                 'plugins/wizard/wizard.min.js'], 'public/js/create-leadlist.js');
+                 'plugins/wizard/wizard.min.js'], 'public/js/create-leadlist.js')
+       .scripts('sweetalert.min.js', 'public/js/sweetalert.min.js');
 });

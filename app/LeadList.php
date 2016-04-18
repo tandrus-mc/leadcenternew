@@ -18,8 +18,9 @@ class LeadList extends Model
      */
     protected $fillable = [
         'list_name',
-        'internal_list_name',
-        'user_id',
+        'list_notes',
+        'path',
+        'users_id',
         'provider_name',
         'good_tags',
         'bad_tags'
@@ -35,10 +36,6 @@ class LeadList extends Model
     ];
 
     protected $dates = [ 'deleted_at' ];
-
-    public static function addLeadList(){
-
-    }
 
     public function user()
     {

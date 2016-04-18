@@ -15,9 +15,11 @@ class CreateLeadListsTable extends Migration
         Schema::create('lead_lists', function (Blueprint $table) {
             $table->increments('id');
             $table->string( 'list_name' );
-            $table->string( 'internal_list_name' );
-            $table->unsignedInteger( 'users_id' );
-            $table->foreign( 'users_id')->references( 'id' )->on( 'users' );
+            $table->string( 'list_notes');
+            $table->string( 'path' );
+            $table->string( 'validation' );
+            $table->unsignedInteger( 'user_id' );
+            $table->foreign( 'user_id')->references( 'id' )->on( 'users' );
             $table->string( 'provider_name' );
             $table->json( 'good_tags' );
             $table->json( 'bad_tags' );

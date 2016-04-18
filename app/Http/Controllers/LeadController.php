@@ -32,6 +32,10 @@ class LeadController extends Controller
 
     }
 
+    public function edit_index(){
+
+    }
+
     public function edit(){
 
     }
